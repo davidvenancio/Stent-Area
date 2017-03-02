@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1DBE1A1E576C8D00838476 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DBE191E576C8D00838476 /* CustomCell.swift */; };
+		6D27C8841E5C835600808896 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D27C8831E5C835600808896 /* Photo.swift */; };
+		6D389C841E65BEAB00E27ED3 /* bottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D389C831E65BEAB00E27ED3 /* bottomLine.swift */; };
+		6D389C961E65FE6F00E27ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D389C941E65FE6F00E27ED3 /* Main.storyboard */; };
+		6D389C9C1E66042300E27ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D389C9B1E66042300E27ED3 /* LaunchScreen.storyboard */; };
+		6D389CA01E66101600E27ED3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D389C9F1E66101600E27ED3 /* Default-568h@2x.png */; };
+		6D82C85E1E60FF370019EB34 /* GEInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D82C85D1E60FF370019EB34 /* GEInitViewController.swift */; };
+		6DBCC3FF1E42A0350048D939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCC3FE1E42A0350048D939 /* AppDelegate.swift */; };
+		6DBCC4011E42A0350048D939 /* CalculadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCC4001E42A0350048D939 /* CalculadorViewController.swift */; };
+		6DBCC4031E42A0350048D939 /* VHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCC4021E42A0350048D939 /* VHViewController.swift */; };
+		6DBCC4081E42A0350048D939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCC4071E42A0350048D939 /* Assets.xcassets */; };
+		6DBCC4311E42A28E0048D939 /* NetholViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBCC4301E42A28E0048D939 /* NetholViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D1DBE191E576C8D00838476 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
+		6D27C8831E5C835600808896 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		6D389C831E65BEAB00E27ED3 /* bottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = bottomLine.swift; path = ../bottomLine.swift; sourceTree = "<group>"; };
+		6D389C941E65FE6F00E27ED3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D389C9B1E66042300E27ED3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D389C9F1E66101600E27ED3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Assets.xcassets/Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D82C85D1E60FF370019EB34 /* GEInitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GEInitViewController.swift; sourceTree = "<group>"; };
+		6DBCC3FB1E42A0350048D939 /* Stent Area.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stent Area.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBCC3FE1E42A0350048D939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DBCC4001E42A0350048D939 /* CalculadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadorViewController.swift; sourceTree = "<group>"; };
+		6DBCC4021E42A0350048D939 /* VHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHViewController.swift; sourceTree = "<group>"; };
+		6DBCC4071E42A0350048D939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBCC40C1E42A0350048D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBCC4151E42A0350048D939 /* Stent_AreaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stent_AreaTests.swift; path = "../Stent AreaTests/Stent_AreaTests.swift"; sourceTree = "<group>"; };
+		6DBCC4171E42A0350048D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Stent AreaTests/Info.plist"; sourceTree = "<group>"; };
+		6DBCC4201E42A0350048D939 /* Stent_AreaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stent_AreaUITests.swift; path = "../Stent AreaUITests/Stent_AreaUITests.swift"; sourceTree = "<group>"; };
+		6DBCC4221E42A0350048D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Stent AreaUITests/Info.plist"; sourceTree = "<group>"; };
+		6DBCC4301E42A28E0048D939 /* NetholViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetholViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBCC3F81E42A0350048D939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBCC3F21E42A0350048D939 = {
+			isa = PBXGroup;
+			children = (
+				6DBCC3FD1E42A0350048D939 /* Stent Area */,
+				6DBCC4141E42A0350048D939 /* Stent AreaTests */,
+				6DBCC41F1E42A0350048D939 /* Stent AreaUITests */,
+				6DBCC3FC1E42A0350048D939 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+		};
+		6DBCC3FC1E42A0350048D939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBCC3FB1E42A0350048D939 /* Stent Area.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBCC3FD1E42A0350048D939 /* Stent Area */ = {
+			isa = PBXGroup;
+			children = (
+				6D389C831E65BEAB00E27ED3 /* bottomLine.swift */,
+				6D1DBE191E576C8D00838476 /* CustomCell.swift */,
+				6D27C8831E5C835600808896 /* Photo.swift */,
+				6D389C9B1E66042300E27ED3 /* LaunchScreen.storyboard */,
+				6DBCC3FE1E42A0350048D939 /* AppDelegate.swift */,
+				6D389C941E65FE6F00E27ED3 /* Main.storyboard */,
+				6DBCC4001E42A0350048D939 /* CalculadorViewController.swift */,
+				6DBCC4021E42A0350048D939 /* VHViewController.swift */,
+				6DBCC4301E42A28E0048D939 /* NetholViewController.swift */,
+				6D82C85D1E60FF370019EB34 /* GEInitViewController.swift */,
+				6DBCC4071E42A0350048D939 /* Assets.xcassets */,
+				6D389C9F1E66101600E27ED3 /* Default-568h@2x.png */,
+				6DBCC40C1E42A0350048D939 /* Info.plist */,
+			);
+			path = "Stent Area";
+			sourceTree = "<group>";
+		};
+		6DBCC4141E42A0350048D939 /* Stent AreaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBCC4151E42A0350048D939 /* Stent_AreaTests.swift */,
+				6DBCC4171E42A0350048D939 /* Info.plist */,
+			);
+			name = "Stent AreaTests";
+			path = "Area StentTests";
+			sourceTree = "<group>";
+		};
+		6DBCC41F1E42A0350048D939 /* Stent AreaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBCC4201E42A0350048D939 /* Stent_AreaUITests.swift */,
+				6DBCC4221E42A0350048D939 /* Info.plist */,
+			);
+			name = "Stent AreaUITests";
+			path = "Area StentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBCC3FA1E42A0350048D939 /* Stent Area */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBCC4251E42A0350048D939 /* Build configuration list for PBXNativeTarget "Stent Area" */;
+			buildPhases = (
+				6DBCC3F71E42A0350048D939 /* Sources */,
+				6DBCC3F81E42A0350048D939 /* Frameworks */,
+				6DBCC3F91E42A0350048D939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stent Area";
+			productName = "Area Stent";
+			productReference = 6DBCC3FB1E42A0350048D939 /* Stent Area.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBCC3F31E42A0350048D939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Venancio - Nethol";
+				TargetAttributes = {
+					6DBCC3FA1E42A0350048D939 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DBCC3F61E42A0350048D939 /* Build configuration list for PBXProject "Stent Area" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBCC3F21E42A0350048D939;
+			productRefGroup = 6DBCC3FC1E42A0350048D939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBCC3FA1E42A0350048D939 /* Stent Area */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBCC3F91E42A0350048D939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D389C9C1E66042300E27ED3 /* LaunchScreen.storyboard in Resources */,
+				6D389CA01E66101600E27ED3 /* Default-568h@2x.png in Resources */,
+				6D389C961E65FE6F00E27ED3 /* Main.storyboard in Resources */,
+				6DBCC4081E42A0350048D939 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBCC3F71E42A0350048D939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D389C841E65BEAB00E27ED3 /* bottomLine.swift in Sources */,
+				6DBCC4311E42A28E0048D939 /* NetholViewController.swift in Sources */,
+				6D82C85E1E60FF370019EB34 /* GEInitViewController.swift in Sources */,
+				6D27C8841E5C835600808896 /* Photo.swift in Sources */,
+				6DBCC4031E42A0350048D939 /* VHViewController.swift in Sources */,
+				6DBCC3FF1E42A0350048D939 /* AppDelegate.swift in Sources */,
+				6D1DBE1A1E576C8D00838476 /* CustomCell.swift in Sources */,
+				6DBCC4011E42A0350048D939 /* CalculadorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DBCC4231E42A0350048D939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = YT5B39R955;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		6DBCC4241E42A0350048D939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Venancio (FCKYW6G2XS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nethol Servicos de Internet E Computacao Grafica Ltda me (YT5B39R955)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = YT5B39R955;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		6DBCC4261E42A0350048D939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = YT5B39R955;
+				INFOPLIST_FILE = "$(SRCROOT)/Stent Area/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nethol.stent-area";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DBCC4271E42A0350048D939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = YT5B39R955;
+				INFOPLIST_FILE = "$(SRCROOT)/Stent Area/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.nethol.stent-area";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBCC3F61E42A0350048D939 /* Build configuration list for PBXProject "Stent Area" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBCC4231E42A0350048D939 /* Debug */,
+				6DBCC4241E42A0350048D939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBCC4251E42A0350048D939 /* Build configuration list for PBXNativeTarget "Stent Area" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBCC4261E42A0350048D939 /* Debug */,
+				6DBCC4271E42A0350048D939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBCC3F31E42A0350048D939 /* Project object */;
+}
